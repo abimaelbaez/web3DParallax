@@ -163,8 +163,22 @@ h1::after {
 .feature ul li {
 	line-height: 40px;
 	font-size: 14px;
+	position: relative;
+}
+.feature ul li::after {
+	content: '';
+	height: 7px;
+	width: 7px;
+	background: #ff4d73;
+	transform: rotate(45deg);
+	position: absolute;
+	top: 17px;
+	left: -25px;
 }
 
+.feature img {
+	margin-top: 130px;
+}
 
 
 
